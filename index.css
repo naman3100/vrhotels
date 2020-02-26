@@ -1,0 +1,508 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Spinnaker');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+
+body{
+  background: #CC95C0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.contentsam {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 20vh;
+	/* background: #000 url(https://images.unsplash.com/22/brick-wall.JPG) center center;
+	background-size: cover; */
+}
+
+.titlesam {
+	font: 6rem 'Poiret One', cursive;
+	color: #fff;
+	text-shadow: 
+		0 0 10px #fff, 
+		0 0 30px #58ade0, 
+		0 0 50px #58ade0, 
+		0 0 70px #fff,
+		0 0 90px #fff;
+}
+
+
+.embedded {
+  display:flex;
+  justify-content: start;
+  font-size:4em;
+	color: #000000;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.20);
+}
+
+.embossed {
+  display:flex;
+  justify-content: start;
+  font-size:4em;
+  font-family: 'Spinnaker', sans-serif;
+	color: #603624;
+	text-shadow:
+		-1px -1px 1px rgba(255, 255, 255, 0.30),
+		1px 1px 1px rgba(0, 0, 0, 0.20);
+}
+
+.gradient {
+  display:flex;
+  justify-content: center;
+  font-size:1em;
+	background: -webkit-linear-gradient(top,  #444444 0%,#a2a2a2 100%); /* Chrome10+,Safari5.1+ */
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+
+.caumt
+{
+  margin-top:3.5em;
+}
+
+.ad
+{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1em;
+}
+
+.embossed:hover
+{
+  text-decoration-line: underline;
+}
+.ba{
+  display: flex;
+  justify-content: space-around;
+}
+
+.neon {
+  display:flex;
+  justify-content: center;
+  font-size:5em;
+  font-family: 'Bungee Inline', cursive;
+	color: rgba(255, 255, 255, 0);
+	text-shadow:
+		0 0 2px #ffffff,
+		0 0 15px #58ade0,
+		0 0 20px #58ade0,
+		0 0 40px #fff;
+}
+.para
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5em;
+}
+
+.a {
+  display:flex;
+  justify-content: start;
+  font-size:4em;
+	color: rgba(255, 255, 255, 0);
+	text-shadow:
+		0 0 2px #ffffff,
+		0 0 15px yellow,
+		0 0 20px yellow,
+		0 0 40px yellow;
+}
+.k
+{
+  font-family: 'ZCOOL XiaoWei', serif;
+  display:flex;
+  justify-content: center;
+  font-size:5em;
+	color: rgba(255, 255, 255, 0);
+}
+.sam {
+ 
+	text-shadow:
+		0 0 2px #ffffff,
+		0 0 15px red,
+		0 0 20px red,
+		0 0 40px red;
+}
+.in {
+  
+	text-shadow:
+		0 0 2px #ffffff,
+		0 0 15px blue,
+		0 0 20px blue,
+		0 0 40px blue;
+}
+
+#top
+{
+    font-family: 'ZCOOL XiaoWei', serif;
+    color:blue;
+}
+#top:hover{
+  color:#EA1C2C;
+}
+
+#td
+{
+  padding: 20px;
+  margin:10px;
+}
+#sc
+{
+  padding: 20px;
+  margin: 10px;
+}
+#fr
+{
+  padding:20px;
+  margin: 10px;
+}
+
+
+#img4
+{
+  border: 3px solid black;
+  border-radius: 20px;
+  padding:0px;
+}
+
+
+.scrolled{
+  background-color: lightsteelblue;
+}
+
+#special
+{
+    color: #EA1C2C;
+    background-color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#special:hover{
+    color:blue;
+}
+
+#link{
+  color:#EA1C2C;
+  font-family: 'Nunito', sans-serif;
+}
+#link:hover
+{
+    color:blue;
+    font-size: 1.05rem;
+}
+
+#des{
+    font-family: 'Black Ops One', cursive;
+    padding-top: 5rem;
+    font-size: 3rem;
+    animation-name: word;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+#ser
+{
+    font-family: 'Black Ops One', cursive;
+    padding-top: 5rem;
+    font-size: 2rem;
+    margin-top:0;
+}
+
+
+@keyframes word{
+    0%
+    {
+        color:#EA1C2C;
+        opacity:1;
+    }
+    25%
+    {
+        color:blue;
+        opacity:0;
+    }
+    50%
+    {
+        color:blue;
+        opacity:1;
+    }
+    75%
+    {
+        color:#EA1C2C;
+        opacity: 0;
+    }
+    100%
+    {
+        color:#EA1C2C;
+        opacity: 1;
+    }
+}
+
+
+
+
+/* beside moblie*/
+
+
+
+#containe {
+    color:#999;
+    text-transform: uppercase;
+    font-size:36px;
+    font-weight:bold;
+    padding-top:50px;
+    position: relative;;
+    width:100%;
+    /* bottom:45%; */
+    display:block;
+  }
+  
+  #flip {
+    height:50px;
+    overflow:hidden;
+  }
+  
+  #flip > div > div {
+    color:#fff;
+    padding:4px 12px;
+    height:45px;
+    margin-bottom:45px;
+    display:inline-block;
+  }
+  
+  #flip div:first-child {
+    animation: show 5s linear infinite;
+  }
+  
+  #flip div div {
+    background:#42c58a;
+  }
+  #flip div:first-child div {
+    background:#4ec7f3;
+  }
+  #flip div:last-child div {
+    background:#DC143C;
+  }
+  
+  @keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-180px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+  }
+  
+
+  /* End beside mobile */
+
+
+
+  /* flipping */
+
+  .flip-container {
+    -webkit-perspective: 1000;
+   -moz-perspective: 1000;
+   -ms-perspective: 1000;
+   perspective: 1000px;
+ }
+   /* flip the pane when hovered */
+   .flip-container:hover .flipper, .flip-container.hover .flipper {
+     transform: rotateY(180deg);
+   }
+ 
+ .flip-container, .front, .back {
+   width: 25rem;
+   height: 35rem;
+ }
+ 
+ /* flip speed goes here */
+ .flipper {
+   transition: 0.7s;
+   transform-style: preserve-3d;
+ 
+   position: relative;
+ }
+ 
+ /* hide back of pane during swap */
+ .front, .back {
+   backface-visibility: hidden;
+ 
+   position: absolute;
+   top: 0;
+   left: 0;
+ }
+ 
+ /* front pane, placed above back */
+ .front {
+   z-index: 2;
+   /* for firefox 31 */
+   transform: rotateY(0deg);
+ }
+ 
+ /* back, initially hidden pane */
+ .back {
+   transform: rotateY(180deg);
+ }
+ 
+ #image
+ {
+   width:25rem;
+   height: 35rem;
+ }
+
+ #cau
+ {
+  
+   height: 43rem;
+ }
+
+ #mobile
+ {
+   width: 27rem;
+   height: 43rem;
+ }
+  /* END OF FLIPPING */
+
+  /* rotating box */
+
+
+  .page{
+    height:0;
+    margin: 0;}
+  .cube {
+    position: relative;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    transform-style: preserve-3d;
+  animation: spin 10s infinite alternate;}
+  @keyframes spin{0%{transform: rotateX(90deg) rotateY(360deg) translateZ(0px);}}
+  .side{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    opacity: 0.95;}
+  
+  .one{ transform:rotateX(90deg) translateZ(100px); background-color: red;}
+  img{width: 200px;height: 200px;}
+  .two{ transform: translateZ(100px);background-color: yellow;}
+  .three{ transform:rotateY(90deg) translateZ(100px); background-color: green;}
+  .four{ transform:rotateY(180deg) translateZ(100px); background-color: blue;}
+  .five{ transform:rotateY(-90deg) translateZ(100px); background-color: lightblue;}
+  .six{ transform:rotateX(-90deg) translateZ(100px); background-color: Chartreuse;}
+
+  /* end rotating box */
+
+
+  /* beside rotiing text */
+
+  svg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    }
+  text {
+    stroke:#DC143C;
+    stroke-width: 2;
+    stroke-dasharray: 20;
+    font: 10em/1 'Russo One', Impact;
+    }
+  
+  .g-lines path {
+    stroke:#DC143C;
+    stroke-width: 10;
+  }
+
+.blinks
+{
+  color:#DC143C;
+}
+
+#warrenimg{
+  border-radius: 50%;
+  border :whitesmoke solid 5px;
+}
+
+#warr
+{
+  font-size: 2rem;
+}
+
+
+.golden {
+	background: -webkit-linear-gradient(top,  #f9d400 15%,#f89b00 35%,#f9d400 70%); /* Chrome10+,Safari5.1+ */
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+
+
+#about
+{
+  margin-top:60px;
+  margin-bottom: 80px;
+  padding:5px;
+}
+
+
+
+
+
+
+
+
+
+#f1_container {
+  position: relative;
+  margin: 10px auto;
+  width: 450px;
+  height: 281px;
+  z-index: 1;
+}
+#f1_container {
+  perspective: 1000;
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: #aaa;
+}
+
+
+.kd
+{
+  font-size: 1.5rem;
+  border-bottom: 1px solid black;
+}
+
+
